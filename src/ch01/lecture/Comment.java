@@ -15,5 +15,6 @@ public class Comment {
 //		한 줄 지우기 ctrl + D
 //		코드 위아래로 옮기기 alt + up down key
 //		콘솔 출력 코드 : sysout /sout
+//		ctrl + F11 : 저장 후 출력
 	}
 }

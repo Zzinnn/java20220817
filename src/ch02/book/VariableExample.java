@@ -1,7 +1,7 @@
 package ch02.book;
 
 public class VariableExample {
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		//10을 변수 value의 초기값으로 저장
 		int value = 10;
 		

@@ -1,7 +1,7 @@
 package ch02.book;
 
 public class IntExample {
-	 public static void main(String[] args) {
+	 public static void main(StringExample[] args) {
 		 
 		 int var1 = 10; 	//10진수 저장
 		 int var2 = 012; 	//8진수 저장  

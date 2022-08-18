@@ -1,7 +1,7 @@
 package ch02.book;
 
 public class FloatDopubleExample {
-	 public static void main(String[] args) {
+	 public static void main(StringExample[] args) {
 		
 		 //실수값 저장
 		 double var1 = 3.14;

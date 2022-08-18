@@ -1,7 +1,7 @@
 package ch02.book;
 
 public class VariableScopeExample {
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		int v1 =15;
 		if(v1>10) {
 			int v2 = v1 - 10;

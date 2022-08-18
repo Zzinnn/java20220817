@@ -1,7 +1,7 @@
 package ch02.book;
 
 public class CharExample {
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		
 		char c1 = 'A'; 			//문자를 직접 저장
 		char c2 = 65; 			//10진수로 저장

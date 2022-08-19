@@ -8,7 +8,7 @@ public class C03Not {
 		//연산결과는 boolean, 피연산자를 반대값 (true -> false- >true)
 		
 		boolean a = true;
-		boolean b = false
+		boolean b = false;
 		
 	
 	

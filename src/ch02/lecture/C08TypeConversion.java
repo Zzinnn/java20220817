@@ -10,7 +10,9 @@ public class C08TypeConversion {
 		int a = 33;
 		short b = 55;
 		
-		a = b; // 자동 형변환
+		a = b; 
+		System.out.println(a);
+		System.out.println("자동형변환");
 		
 		char c = '가';
 		a = c;
@@ -26,6 +28,7 @@ public class C08TypeConversion {
 		int h = 999;
 		float i = h; 
 		double j = h;
+		
 		long k = 99999L;
 		float l = k;
 		double m = k;
@@ -37,11 +40,11 @@ public class C08TypeConversion {
 		long q = 999999L;
 //		int p = q; // x
 		int r = (int) q; // 강제형변환 (cast, casting)
-		System.out.println(r);
+		System.out.println("r1은:"+r);
 		
 		q = 30_0000_0000L;
 		r = (int) q; // 값을 잃을 수 있다
-		System.out.println(r);
+		System.out.println("r2은:"+r);
 		
 		// 실수 -> 정수 (강제형변환)
 		float s = 3.14F;

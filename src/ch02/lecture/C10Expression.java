@@ -34,5 +34,5 @@ public class C10Expression {
 //		char s = q + r; // x
 		int t = q + r; // ok
 	}
+	
 }
-

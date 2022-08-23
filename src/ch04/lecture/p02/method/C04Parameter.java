@@ -1,0 +1,25 @@
+package ch04.lecture.p02.method;
+
+public class C04Parameter {
+	public static void main(String[] args) {
+		// 여러줄이 출력되도록 파라미터와 아규먼트 추가
+		
+		printTriangle(1);
+		printTriangle(4);
+		printTriangle(6);
+		
+		
+		
+	}
+
+	public static void printTriangle (int line) {
+		
+		for (int i = 0; i < line; i++) {
+			for (int j = 0; j <= i; j++) {
+				System.out.println("*");
+			}
+			System.out.println();
+		}
+		
+	}
+}

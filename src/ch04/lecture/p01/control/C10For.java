@@ -38,7 +38,7 @@ public class C10For {
 			}
 			
 			// * 출력
-			for (int l = 5; l > i; l--) {
+			for (int l = 5; i < l; l--) {
 				System.out.print("*");
 			}
 			

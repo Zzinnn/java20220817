@@ -10,7 +10,7 @@ public class C16Forscanner {
 		System.out.print("첫번째 정수 입력:");
 		int first =scanner.nextInt();
 		
-		System.out.print("마지막 정수 입력(" + first + "보다 큰 수)");
+		System.out.print("마지막 정수 입력(" + first + "보다 큰 수) :");
 		int last = scanner.nextInt();
 		
 		int sum = 0;

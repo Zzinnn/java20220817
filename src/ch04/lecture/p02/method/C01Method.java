@@ -33,11 +33,7 @@ public class C01Method {
 		int b = (int)(Math.random()*6)+1;
 		System.out.println("("+ a + "," + b + ")");
 		
-		while(ture) {
-			if ( (a+b) == 5 ) {
-				
-			}
-		}
+
 		
 	}
 	

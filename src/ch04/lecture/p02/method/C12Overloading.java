@@ -8,10 +8,10 @@ public class C12Overloading {
 		int b =half(5);
 		System.out.println(b); //2
 	}
-	public static double half(double i) {
-		return i/2;
+	public static double half(double a) {
+		return a/2;
 	}
-	public static int half(int j) {
-		return j/2;
+	public static int half(int b) {
+		return b/2;
 	}
 }

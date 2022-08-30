@@ -1,15 +1,17 @@
 package ch06.book.s060801;
 
-public class Calulator_217 {
+public class Calculator_217 {
 	
 		//메소드
 		void powerOn() {
 			System.out.println("전원을 켭니다.");
+		}
 		
 		int plus(int x, int y) {
-			int result =x + y;
+			int result = x + y;
 			return result;
 		}
+		
 		
 		double divide (int x, int y) {
 			double result = (double)x /(double)y;
@@ -22,4 +24,4 @@ public class Calulator_217 {
 		
 		
 	}
-}
+

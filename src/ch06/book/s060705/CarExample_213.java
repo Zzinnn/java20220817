@@ -11,7 +11,6 @@ public class CarExample_213 {
 		Car_213 car2 = new Car_213("자가용");
 		System.out.println("car2.company : " + car2.company);
 		System.out.println("car2.model : " + car2.model);
-		System.out.println(car2.color);
 		System.out.println();
 		
 		Car_213 car3 =new Car_213("자가용", "빨강");

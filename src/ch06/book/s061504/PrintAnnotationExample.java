@@ -1,5 +1,18 @@
 package ch06.book.s061504;
 
-public class PrintAnnotationExample {
+import java.lang.reflect.Method;
 
+public class PrintAnnotationExample {
+	public static void main(String[] args) {
+		// Service 클래스로부터 메소드 정보를 얻음
+		Method[] declaredMethods = Service.class.getDeclaredMethod();
+		
+		//Method 객체를 하나씩 처리
+		for(Method method : declaredMethods) {
+			//PrintAnnotation이 적용되었는지 확인
+			if(method.isAnnotationPresent(PrintAnnotation.class)) {
+				//PrintAnnotation
+			}
+		}
+	}
 }

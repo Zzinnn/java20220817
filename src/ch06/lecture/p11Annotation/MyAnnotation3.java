@@ -1,5 +1,7 @@
 package ch06.lecture.p11Annotation;
 
-public class MyAnnotation3 {
 
+
+public @interface MyAnnotation3 {
+	
 }

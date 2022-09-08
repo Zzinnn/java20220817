@@ -1,6 +1,7 @@
 package ch06.lecture.p11Annotation;
 
-public class MyAnnotation2 {
+public @interface MyAnnotation2 {
+	String value() 
 	
-	String value; // 
+	
 }

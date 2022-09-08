@@ -1,10 +1,10 @@
 package example;
 
 public class Joogang {
-	int MAX = 100;
-	int MIN = 0;
+	int HP;
 	
-	public void rest(){
+	public void rest(int hp){
 		
+		this.HP = hp + 50;
 	}
 }

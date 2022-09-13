@@ -1,6 +1,7 @@
 package example;
 
 public class Teacher extends Joogang implements Human {
+	String result ="GOOD";
 	
 	
 	Teacher(int HP){
@@ -11,14 +12,13 @@ public class Teacher extends Joogang implements Human {
 		switch(a){
 			case "a":
 			case "c":
-			case "d":
-				String result = "GOOD";
+			case "d"
 				return result;
 			case "b":
 			case "e":
-				
-				break; 
+
 		}
+
 	}
 	
 }

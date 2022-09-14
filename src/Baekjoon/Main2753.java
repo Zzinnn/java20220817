@@ -16,9 +16,6 @@ public class Main2753 {
 		} else {
 			System.out.println("0");
 		}
-
-	
-	
 	
 	}
 }

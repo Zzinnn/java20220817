@@ -11,6 +11,8 @@ public class CompareMethodExample {
 			System.out.println("논리적으로 동등하지 않은 객체입니다.");
 		}
 		
-		Pair<String, String> p3 = new 
+		Pair<String, String> p3 = new Pair<>("1","홍길동");
+		Pair<String, String> p4 = new Pair<>("1","홍길동");
+		boolean result2 = Util.compare(p3,p4);
 	}
 }

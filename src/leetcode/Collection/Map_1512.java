@@ -1,8 +1,8 @@
-package leetcode;
+package leetcode.Collection;
 
 import java.util.*;
 
-public class NumberOfGoodPairs_1512 {
+public class Map_1512 {
 	public static void main(String[] args) {
 		Map<Integer, Integer> map = new HashMap<>();
 		
@@ -31,18 +31,33 @@ public class NumberOfGoodPairs_1512 {
 //			
 //		}
 		
-//        int sum = 0;
-//        Set<Map.Entry<Integer, Integer>> entries = map.entrySet();
-//        for (Map.Entry<Integer, Integer> entry : entries) {
-//            if (entry.getValue() == 1) {
-//                sum += entry.getKey();
-//            }
-//        }
-//        
-//        return sum;
-//    }
 		
 		
+		
+		
+//		풀이		
+//		public int numIdenticalPairs(int[] nums) {
+//			Map<Integer, Integer> map = new HashMap<>();
+//			for (int num : nums) {
+//				if (map.containsKey(num)) {
+//					// 이미 있었으면
+//					Integer val = map.get(num);
+//					map.put(num, val + 1);
+//				} else {
+//					// 처음
+//					map.put(num, 1);
+//				}
+//			}
+//
+//			int result = 0;
+//
+//			for (Integer n : map.values()) {
+//				Integer r = (n - 1) * n / 2;
+//				result += r;
+//			}
+//
+//			return result;
+//		}
 		
 	}
 }

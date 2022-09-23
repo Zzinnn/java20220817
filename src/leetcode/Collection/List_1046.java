@@ -1,8 +1,8 @@
-package leetcode;
+package leetcode.Collection;
 
 import java.util.*;
 
-public class LastStoneWeight_1046 {
+public class List_1046 {
 //	public static void main(String[] args) {
 //		
 //	List<Integer> list = Arrays.asList(2,7,4,1,8,1);

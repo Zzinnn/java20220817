@@ -1,8 +1,8 @@
-package leetcode;
+package leetcode.Collection;
 
 import java.util.*;
 
-public class CountTheNumber_1684 {
+public class Set_1684 {
 	public static void main(String[] args) {
 		
 	Set<String> words = new HashSet<>();
